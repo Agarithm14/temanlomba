@@ -8,4 +8,6 @@ class LombaController extends CI_Controller {
 		$params['data']['tes']='aaaa';
 		$this->load->view('dashboard/layout',$params);
 	}
+
+	
 }
